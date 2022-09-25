@@ -1,7 +1,6 @@
 .header {
     border-bottom: 1px solid #ececec;
 }
-
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -12,11 +11,9 @@
     text-decoration: none;
     margin-right: 93px;
 }
-
 .logo-footer {
     margin: 0;
 }
-
 .logo-color {
     color: var(--title-text-color);
 }
@@ -24,21 +21,17 @@
 .logo-color-foot {
     color: #ffffff;
 }
-
 /*navigation*/
 .nav {
     display: flex;
     align-items: center;
 }
-
 .nav-list {
     display: flex;
 }
-
 .nav-list .item:not(:last-child) {
     margin-right: 50px;
 }
-
 .nav-link {
     position: relative;
     display: block;
@@ -51,11 +44,9 @@
     color: var(--title-text-color);
     transition: color var(--animation);
 }
-
 .nav-link.current {
     color: var(--accent-color);
 }
-
 .nav-link::after {
     position: absolute;
     left: 0;
@@ -69,32 +60,26 @@
     opacity: 0;
     transition: opacity var(--animation);
 }
-
 .nav-link.current::after {
     opacity: 1;
 }
-
 .nav-link:hover::after,
 .nav-link:focus::after {
     opacity: 1;
 }
-
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
     color: var(--accent-color);
 }
-
 /*contacts*/
 .contacts {
     display: flex;
     margin-left: auto;
 }
-
 .contacts .item:not(:last-child) {
     margin-right: 50px;
 }
-
 .contacts-link {
     text-decoration: none;
     font-weight: 500;
@@ -108,13 +93,11 @@
     gap: 10px;
     transition: color var(--animation), fill var(--animation);
 }
-
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
-
 /*hero*/
 .hero-title {
     font-weight: 900;
@@ -129,7 +112,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .hero {
     align-items: center;
     text-align: center;
@@ -148,7 +130,6 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 .btn-hero {
     background-color: var(--accent-color);
     font-weight: 700;

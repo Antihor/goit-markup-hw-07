@@ -1,6 +1,7 @@
 .pictures {
     display: flex;
-&__label {
+}
+.pictures__label {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -18,9 +19,8 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-&__item {
+.pictures__item {
     position: relative;
-}
 
 &__item:not(:last-child) {
     margin-right: 30px;
